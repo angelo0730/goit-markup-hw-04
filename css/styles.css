@@ -207,7 +207,7 @@ color: inherit;
 /* checked */
 .benefits .description {
   color: var(--slatecolor);
-  line-height: 1.5;
+  line-height: 1.7;
   font-size: 16px;
   font-weight: 400;
 }
@@ -253,19 +253,18 @@ margin-left: 93px;
   font-weight: 400;
 }
 /* checked */
-.bg-hero {
-  background-color: var(--navyblue);
-}
-/* checked */
 .hero { 
 padding: 200px 0;
 text-align: center;
-background-image:url(../images/hero-bg.png);
+background-image: 
+linear gradient (rgba(46, 47, 66, 0.78),rgba(46, 47, 66, 0.78)),
+url(../images/hero-bg.png);
+height: 600px;
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-
 } 
+
 /* checked */
 .hero-title {
   color: var(--whitecolor);
@@ -364,3 +363,17 @@ background-image:url(../images/hero-bg.png);
 .logo-footer {
   color: var(--iriscolor);
 }
+.benefits-svg-box {
+  margin-bottom: 8px;
+  display: flex;
+  width: 264px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cloud);
+  border-radius: 4px;
+}
+
+
+
+
